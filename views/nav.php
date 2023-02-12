@@ -35,7 +35,7 @@
         </div>
         <div class="sb-sidenav-footer">
             <div class="small">Logged in as:</div>
-            AACCUP Area I Task-force
+            AACCUP Administrator
         </div>
     </nav>
 </div>

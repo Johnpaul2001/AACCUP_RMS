@@ -2,7 +2,7 @@
 <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <!-- Navbar Brand-->
-            <a class="navbar-brand ps-3" href="#"> <img src="img/bisu.png" width="30px" height="30px" alt="">AACCUP - RMS</a>
+            <a class="navbar-brand ps-3" href="#"> <img src="img/bisu.png" width="50px" height="30px" alt="" class="px-2">AACCUP - RMS</a>
             <!-- Sidebar Toggle-->
             <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
             
