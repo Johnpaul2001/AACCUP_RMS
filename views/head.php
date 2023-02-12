@@ -10,9 +10,9 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="ui_sett_course.php"> <i class="fa-solid fa-gear"></i> Settings</a></li>
+                        <li><a class="dropdown-item" href="ui_sett_course.php"> <i class="fa-solid fa-gear px-2"></i> Settings</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Logout</a></li>
+                        <li><a class="dropdown-item" href="#!"><i class="fa-solid fa-right-from-bracket px-2"></i>Logout</a></li>
                     </ul>
                 </li>
             </ul>
