@@ -11,23 +11,23 @@
                         Archive
                     </a>
                 <div class="sb-sidenav-menu-heading">Accreditation</div>
-                    <a class="nav-link" href="charts.html">
+                    <a class="nav-link" href="ui_levels_PSV.php">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         PSV
                     </a>
-                    <a class="nav-link" href="charts.html">
+                    <a class="nav-link" href="ui_levels_Lvl1.php">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level I
                     </a>
-                    <a class="nav-link" href="charts.html">
+                    <a class="nav-link" href="ui_levels_Lvl2.php">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level II
                     </a>
-                    <a class="nav-link" href="charts.html">
+                    <a class="nav-link" href="ui_levels_Lvl3.php">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level III
                     </a>
-                    <a class="nav-link" href="charts.html">
+                    <a class="nav-link" href="ui_levels_Lvl4.php">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level IV
                     </a>
