@@ -31,6 +31,7 @@
                 <div class="text-muted">Copyright &copy; Bohol Island State University - Balilihan Campus AACCUP 2023</div>
             </div>
         </div>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top float-end"><i class="fa-solid fa-arrow-up"></i></a>
     </footer>
     </div>
 </div>

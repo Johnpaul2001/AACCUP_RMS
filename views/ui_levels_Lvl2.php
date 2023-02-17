@@ -15,9 +15,18 @@
                 <hr>
             </div>
         </section>
-        <div>
-
-        </div>     
+        <div class="px-5 tree">
+            <div class="contain">
+                <div class="content">
+                    <div class="row">
+                        <div class="col-md-12 pt-1">
+                            <div id="tree">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
     </main>     
         <footer class="py-4 bg-light mt-auto">
             <div class="container-fluid px-4">

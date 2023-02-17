@@ -16,8 +16,11 @@
             </div>
         </section>
         <div>
-
-        </div>     
+            <div class="text-center">
+                <img src="./img/error.png" width="500">
+                <p>Oops! Sorry, this level of accreditation is not allowed to use. There is no programs in the campus that are passed as Level IV Accreditation.</p>
+            </div>
+        </div>    
     </main>     
         <footer class="py-4 bg-light mt-auto">
             <div class="container-fluid px-4">
