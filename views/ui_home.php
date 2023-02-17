@@ -144,6 +144,87 @@
                     <div class="carousel-item ">
                         <img src="./img/parameters/31.png" class="d-block w-100" alt="...">
                     </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/32.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/33.png" class="d-block w-100" alt="...">
+                    </div>
+                     <div class="carousel-item ">
+                        <img src="./img/parameters/34.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/35.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/36.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/37.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/38.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/39.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/40.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/41.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/42.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/43.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/44.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/45.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/46.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/47.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/48.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/49.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/50.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/51.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/52.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/53.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/54.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/55.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/56.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/57.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/58.png" class="d-block w-100" alt="...">
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -169,6 +250,75 @@
                     </div>
                     <div class="carousel-item ">
                         <img src="./img/parameters/4.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/5.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/6.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/7.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/8.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/9.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/10.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/11.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/12.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/13.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/14.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/15.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/16.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/17.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/18.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/19.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/20.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/21.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/22.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/23.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/24.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/25.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/26.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/parameters/27.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls12" data-bs-slide="prev">
