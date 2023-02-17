@@ -11,6 +11,9 @@
     position: relative !important;
     top: -100px !important;
 }
+.tree i{
+    color: aqua !important;
+}
 .bstreeview {
     position: relative;
     display: -ms-flexbox;
@@ -19,12 +22,13 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: rgb(4, 167, 242) !important;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgb(15, 0, 70) !important;
     border-radius: .25rem;
     padding: 0;
     overflow: hidden;
+    color: blue !important;
 }
 
 .bstreeview .list-group {

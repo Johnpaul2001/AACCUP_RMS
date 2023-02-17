@@ -18,7 +18,7 @@
         <div>
             <div class="text-center">
                 <img src="./img/error.png" width="500">
-                <p>Oops! Sorry, this level of accreditation is not allowed to use. There is no programs in the campus that are passed as Level IV Accreditation.</p>
+                <p>Oops! Sorry, this level of accreditation is not allowed to use. There is no programs in the campus that are passed as Level III Accreditation.</p>
             </div>
         </div>    
     </main>     
