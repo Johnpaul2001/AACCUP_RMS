@@ -18,8 +18,9 @@
         <div class="px-5 tree">
             <div class="contain">
                 <div class="content">
+                <h4><b>Accreditation</b></h4>
                     <div class="row">
-                        <div class="col-md-12 pt-1">
+                        <div class="col-md-12">
                             <div id="tree">
                             </div>
                         </div>
