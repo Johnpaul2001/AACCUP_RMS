@@ -13,21 +13,16 @@ conditions or requirements set by the accrediting agency.</p>
                 <hr>
             </div>
         </section>
-        <form class="mb-3 px-4 d-flex flex-row" action="index.php?m=areas" method="POST" enctype="multipart/form-data">
-            <div class="px-5 tree">
-                <div class="contain">
-                    <div class="content">
-                    <h4><b>Accreditation</b></h4>
-                        <div class="row">
-                            <div class="col-md-12 pt-1">
-                                <div id="tree">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>       
-        </form>
-    </main>    
+        <div class="contain">
+            <div class="content">
+                <p class="h4 string ml-2">Accreditation</p>
+                <?php require_once 'views/tpl_areas_tab.php' ?>
+            </div>
+        </div>
+    </main>  
+
+    <script>
+        var tree_list = <?php echo json_encode($_POST['tree_list']); ?>;
+    </script>
 
 <?php require_once('footer.php'); ?>

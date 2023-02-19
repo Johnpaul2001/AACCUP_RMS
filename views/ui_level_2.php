@@ -12,14 +12,16 @@
                 <hr>
             </div>
         </section>
-        <div class="pl-2">
-            <div class="contain">
-                <div class="content">
-                    <h4><b>Accreditation</b></h4>
-                    <?php require_once 'views/tpl_areas_tab_tree.php' ?>
-                </div>
+        <div class="contain">
+            <div class="content">
+                <p class="h4 string ml-2">Accreditation</p>
+                <?php require_once 'views/tpl_areas_tab.php' ?>
             </div>
-        </div>  
-    </main>
+        </div>
+    </main>  
+
+    <script>
+        var tree_list = <?php echo json_encode($_POST['tree_list']); ?>;
+    </script>
 
 <?php require_once('footer.php'); ?>

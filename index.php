@@ -68,48 +68,46 @@ if ($_GET['m'] == 'folders') {
 
 # PSV
 } elseif ($_GET['m'] == 'PSV') {
-    require_once 'views/ui_level_psv.php';
-
-# Level 1
-} elseif ($_GET['m'] == 'LI') {
-    $_POST['level_code'] = 'I';
-    $_POST['area_list'] = $level_sql->getLevelAreas('I');
+    $_POST['level_code'] = 'PSV';
+    $_POST['area_list'] = $level_sql->getLevelAreas($_POST['level_code']);
     $_POST['area_folders'] = array(); 
     foreach ($_POST['area_list'] as $area) {    
         $area_code = $area['Area_Code'];
         $_POST['area_parameters'][$area_code] = $param_sql->getAreaParameters($area_code); 
     }
-    //$_POST['area_indicators'] = $indicator_sql->getAreaIndicators($area_code);
-    /*
-    if (is_array($_POST['area_list'])) {
-        $_POST['area_sel'] = $_POST['area_list'][0]['Area_Code'];
-        foreach ($_POST['area_list'] as $area) {    
-            $area_code = $area['Area_Code'];
-            $_POST['area_folders'][$area_code] = $sql->getAreaFolders('I', $area_code);
-        }
+    require_once 'views/ui_level_psv.php';
+
+# Level 1
+} elseif ($_GET['m'] == 'LI') {
+    $_POST['level_code'] = 'I';
+    $_POST['area_list'] = $level_sql->getLevelAreas($_POST['level_code']);
+    $_POST['area_folders'] = array(); 
+    foreach ($_POST['area_list'] as $area) {    
+        $area_code = $area['Area_Code'];
+        $_POST['area_parameters'][$area_code] = $param_sql->getAreaParameters($area_code); 
     }
-    */
-    //print "<pre>"; print_R($_POST['area_parameters']); exit;
     require_once 'views/ui_level_1.php';
 
 # Level 2
 } elseif ($_GET['m'] == 'LII') {
-    $_POST['level_code'] = 'I';
-    $_POST['area_list'] = $level_sql->getLevelAreas('I');
+    $_POST['level_code'] = 'II';
+    $_POST['area_list'] = $level_sql->getLevelAreas($_POST['level_code']);
     $_POST['area_folders'] = array(); 
-    if (is_array($_POST['area_list'])) {
-        $_POST['area_sel'] = $_POST['area_list'][0]['Area_Code'];
-        foreach ($_POST['area_list'] as $area) {    
-            $area_code = $area['Area_Code'];
-            $_POST['area_folders'][$area_code] = $sql->getAreaFolders('I', $area_code);
-            $_POST['area_indicators'] = $indicator_sql->getAreaIndicators($area_code);
-        }
+    foreach ($_POST['area_list'] as $area) {    
+        $area_code = $area['Area_Code'];
+        $_POST['area_parameters'][$area_code] = $param_sql->getAreaParameters($area_code); 
     }
-    //print "<pre>"; print_R($_POST['area_parameters']); exit;
     require_once 'views/ui_level_2.php';
 
 # Level 3
 } elseif ($_GET['m'] == 'LIII') {
+    $_POST['level_code'] = 'III';
+    $_POST['area_list'] = $level_sql->getLevelAreas($_POST['level_code']);
+    $_POST['area_folders'] = array(); 
+    foreach ($_POST['area_list'] as $area) {    
+        $area_code = $area['Area_Code'];
+        $_POST['area_parameters'][$area_code] = $param_sql->getAreaParameters($area_code); 
+    }
     require_once 'views/ui_level_3.php';
 
 # Level 4

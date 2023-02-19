@@ -105,8 +105,9 @@ class SQL_Level_Areas extends DB_Connect {
             FROM level_areas as t1
             LEFT JOIN areas as t2 
                 ON t1.Area_Key = t2.Area_Key
-            ORDER BY Level_Code, Area_Code
-        ";
+            ORDER BY Level_Code, t2.Area_Key
+
+        ";        
         $data = $this->getDataFromTable($sql);
 
         return $data;
