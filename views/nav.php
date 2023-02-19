@@ -2,32 +2,60 @@
     <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
         <div class="sb-sidenav-menu">
             <div class="nav">
-                    <a class="nav-link" href="ui_home.php" >
+                    <a class="nav-link 
+                        <?php if ($_GET['m'] == 'home'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php" >
                         <div class="sb-nav-link-icon"><i class="fas fa-house"></i></div>
                         Home
                     </a>
-                    <a class="nav-link" href="ui_archive.php">
+                    <a class="nav-link                    
+                        <?php if ($_GET['m'] == 'archive'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php?m=archive">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-trash"></i></div>
                         Archive
                     </a>
                 <div class="sb-sidenav-menu-heading">Accreditation</div>
-                    <a class="nav-link" href="ui_levels_PSV.php">
+                    <a class="nav-link
+                        <?php if ($_GET['m'] == 'PSV'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php?m=PSV">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         PSV
                     </a>
-                    <a class="nav-link" href="ui_levels_Lvl1.php">
+                    <a class="nav-link
+                        <?php if ($_GET['m'] == 'LI'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php?m=LI">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level I
                     </a>
-                    <a class="nav-link" href="ui_levels_Lvl2.php">
+                    <a class="nav-link
+                        <?php if ($_GET['m'] == 'LII'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php?m=LII">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level II
                     </a>
-                    <a class="nav-link" href="ui_levels_Lvl3.php">
+                    <a class="nav-link
+                        <?php if ($_GET['m'] == 'LIII'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php?m=LIII">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level III
                     </a>
-                    <a class="nav-link" href="ui_levels_Lvl4.php">
+                    <a class="nav-link
+                        <?php if ($_GET['m'] == 'LIV'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php?m=LIV">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level IV
                     </a>
@@ -39,3 +67,5 @@
         </div>
     </nav>
 </div>
+
+<div id="layoutSidenav_content">
