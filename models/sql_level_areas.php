@@ -121,7 +121,6 @@ class SQL_Level_Areas extends DB_Connect {
                 ON t1.Area_Key = t2.Area_Key
             WHERE t1.Level_Code = '{$level_code}'
             ORDER BY t2.Area_Key
-            limit 2
         ";
         $data = $this->getDataFromTable($sql);
 
