@@ -51,7 +51,7 @@
                             </div>
                             <div class="col-md-3 text-center">
                                 <input type="hidden" name="create" value="ay_folders" />
-                                <button class="btn btn-primary py-4 px-5" type="submit" name="create" value="ay_folders">Create Folders</button>
+                                <button class="btn btn-primary py-2 px-1" type="submit" name="create" value="ay_folders" style="margin-top: 35px; margin-right:50px;">Create Folders</button>
                             </div>
                         </div>
                     </form>

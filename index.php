@@ -27,7 +27,6 @@ if (!isset($_GET['m'])) {
 # Upload Files
 if ($_GET['m'] == 'upload') {    
     if (isset($_FILES['upload_files']) && !empty($_FILES['upload_files']['tmp_name'])) {
-        //print "<pre>"; print_r($_FILES); exit;
         $folder_sql->saveUploadedFiles($_FILES['upload_files']);
     } else {
         $_POST['warning'] = 'No file selected.';

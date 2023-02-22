@@ -1,7 +1,7 @@
 <?php if (isset($_POST['table']) && !empty($_POST['table'])): ?>
     <!-- DataTales -->
             <div class="table-responsive">
-                <table class="table table-bordered" id="<?php echo $_POST['table']['table_id'] ?>" width="100%" cellspacing="0">
+                <table class="table table-bordered"  width="100%" cellspacing="0">
                     <thead>
                         <tr>
                             <?php foreach ($_POST['table']['table_headers'] as $header): ?>
@@ -13,7 +13,7 @@
                     <tfoot>
                         <tr>
                             <?php foreach ($_POST['table']['table_headers'] as $header): ?>
-                                <th><?php echo $header; ?></th>
+                                <!-- <th><?php echo $header; ?></th> -->
                             <?php endforeach; ?>
                         </tr>
                     </tfoot>
