@@ -280,7 +280,7 @@ class SQL_Create_Folders extends DB_Connect {
                 }
             }
         }
-        print "<pre>"; print_r($results); exit;
+        //print "<pre>"; print_r($results); exit;
     
         return $results;
     }

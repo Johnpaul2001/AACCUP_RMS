@@ -1,6 +1,9 @@
 
 $(document).ready(function()
 {
+    if ($("#"+id)) {
+        $("#"+id).click();
+    }
 
     $.each( tree_list, function( key, value ) {
         var id = value['id'];
