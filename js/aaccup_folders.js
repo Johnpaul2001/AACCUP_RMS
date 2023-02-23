@@ -1,6 +1,6 @@
 
 $(document).ready(function()
-{
+{    
     if ($("#"+id)) {
         $("#"+id).click();
     }

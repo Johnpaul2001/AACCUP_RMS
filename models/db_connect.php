@@ -84,31 +84,6 @@ class DB_Connect {
         return $data;
     }
 
-    public function isValidUser($username, $password)
-    {
-        $valid = false;
-        if (strtolower($username) == ADMIN_USERNAME) {
-            if ($password === ADMIN_PASSWORD) {
-                $valid = true;
-                $_SESSION['logged'] = 'admin';
-            }
-        } else {
-            $sql = "
-                SELECT * 
-                FROM task_force 
-                WHERE Pass_Word = '".hashPassword($password)."'
-                    AND User_Name = '".$username."'
-                ";
-            $user = $this->getDataFromTable($sql);
-            if (!empty($user)) {
-                $valid = true;
-                $_SESSION['logged'] = $user[0];
-            }
-        } 
-
-        return $valid;
-    }
-
 }
 
 ?>

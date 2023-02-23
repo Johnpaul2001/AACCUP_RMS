@@ -10,14 +10,16 @@
                         <div class="sb-nav-link-icon"><i class="fas fa-house"></i></div>
                         Home
                     </a>
-                    <a class="nav-link                    
-                        <?php if ($_GET['m'] == 'archive'): ?>
-                            active
-                        <?php endif; ?>
-                        " href="index.php?m=archive">
-                        <div class="sb-nav-link-icon"><i class="fa-solid fa-trash"></i></div>
-                        Archive
-                    </a>
+                    <?php if ($_SESSION['arms']['logged'] != ADMIN_USERNAME): ?>
+                        <a class="nav-link
+                            <?php if ($_GET['m'] == 'archive'): ?>
+                                active
+                            <?php endif; ?>
+                            " href="index.php?m=archive">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-trash"></i></div>
+                            Archive
+                        </a>
+                    <?php endif; ?>
                 <div class="sb-sidenav-menu-heading">Accreditation</div>
                     <a class="nav-link
                         <?php if ($_GET['m'] == 'PSV'): ?>
@@ -63,7 +65,11 @@
         </div>
         <div class="sb-sidenav-footer">
             <div class="small">Logged in as:</div>
-            AACCUP Administrator
+            <?php if ($_SESSION['arms']['logged'] == ADMIN_USERNAME): ?>
+                AACCUP-RMS Administrator
+            <?php else: ?>
+                <?php echo $_SESSION['arms']['logged']['First_Name'].' '.$_SESSION['arms']['logged']['Last_Name'] ?>
+            <?php endif; ?>
         </div>
     </nav>
 </div>

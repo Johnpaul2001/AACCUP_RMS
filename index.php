@@ -3,10 +3,28 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-//$_SESSION['ais']['logged'] = 'admin';
 require_once 'config.php';
 require_once 'helper.php';
 
+if (!isset($_GET['m'])) {
+    $_GET['m'] = 'home';
+}
+
+# Login
+if ($_GET['m'] == 'login') {  
+    require_once 'views/ui_login.php';
+    exit;
+    
+# Logout
+} elseif ($_GET['m'] == 'logout') {
+    logout();
+}
+
+if (!isset($_SESSION['arms']['logged']) || empty($_SESSION['arms']['logged'])) {
+    header('Location: index.php?m=login');
+    exit;
+}
+//print "<pre>"; print_r($_SESSION['arms']); exit;
 
 require_once 'models/sql_level_areas.php';
 $level_sql = new SQL_Level_Areas;
@@ -18,11 +36,6 @@ require_once 'models/sql_indicators.php';
 $indicator_sql = new SQL_Indicators;
 require_once 'models/sql_create_folders.php';
 $folder_sql = new SQL_Create_Folders;
-
-if (!isset($_GET['m'])) {
-    $_GET['m'] = 'home';
-}
-
 
 # Upload Files
 if ($_GET['m'] == 'upload') {    

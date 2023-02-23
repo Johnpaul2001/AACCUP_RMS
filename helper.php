@@ -3,11 +3,10 @@
 
 function logout()
 {
-    unset($_SESSION['logged']);
-    $_SESSION['logged'] = 'guest';
-    require_once 'views/ui_home.php';
+    unset($_SESSION['logged']['arms']);
+    $_SESSION['logged']['arms'] = array();
+    header('Location: index.php?m=login');
     exit;
-
 }
 
 function hashPassword($pwd)
