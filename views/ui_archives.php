@@ -45,8 +45,8 @@
                     <td>February 22, 2023</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td>Mark</td>
+                    <td>Level I</td>
+                    <td>Area 3</td>
                     <td>AREA-I_BSCS_PARAM-A_SIP_2020-2021_S.1_Page2</td>
                     <td>Marc Benigno Olaguir</td>
                     <td>February 21, 2023</td>
