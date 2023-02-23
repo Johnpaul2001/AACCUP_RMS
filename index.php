@@ -63,7 +63,7 @@ if ($_GET['m'] == 'folders') {
 
 # Archive
 } elseif ($_GET['m'] == 'archive') {
-    require_once 'views/ui_archive.php';
+    require_once 'views/ui_archives.php';
 
 # PSV
 } elseif ($_GET['m'] == 'PSV') {
