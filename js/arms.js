@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+
     
     $( "#admin_areasxx" ).submit(function( event ) {
         //event.preventDefault();
