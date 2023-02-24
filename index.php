@@ -74,6 +74,10 @@ if ($_GET['m'] == 'folders') {
     }
     echo json_encode($folder_json);
 
+#about
+} elseif ($_GET['m'] == 'about') {
+    require_once 'views/ui_about.php';
+
 # Archive
 } elseif ($_GET['m'] == 'archive') {
     require_once 'views/ui_archives.php';

@@ -21,4 +21,7 @@
         <!-- Custom styles for this page -->
         <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
         <script src="vendor/jquery/jquery.min.js"></script>
+        <link rel=”stylesheet” href=”//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css”>
+
+<link rel=”stylesheet” href=”css/datatables/datatables.css”>
 </head>

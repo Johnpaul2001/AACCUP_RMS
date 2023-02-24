@@ -19,7 +19,7 @@
         </div>
         <hr>
         <div class="px-5">
-        <table class="table table-hover">
+        <table class="table table-hover datatable">
             <thead>
                 <tr>
                 <th scope="col">Level</th>
