@@ -1,8 +1,9 @@
 
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
-                    <div class="d-flex align-items-center justify-content-between small">
+                    <div class="d-flex align-items-center justify-content-between small flex-row">
                         <div class="text-muted">Copyright &copy; Bohol Island State University - Balilihan Campus AACCUP 2023</div>
+                        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top float-end"><i class="fa-solid fa-arrow-up"></i></a>
                     </div>
                 </div>
             </footer>

@@ -1,5 +1,5 @@
       
-      <div class="col-md-9 mx-5 col-lg-10">
+      <div class="col-md-9 mx-5 col-lg-10" style="padding-top: 20px;">
           <p class="text-center"><img class="mb-2" src="./img/bisu.png" alt="" width="75" height="75"></p>
           <h3 class="h5 mb-3 title text-center"><b>AAACCUP RECORDS MANAGEMENT SYSTEM</b></h3>
           <h1 class="h1 mb-5 title text-center"><b>USER LOG-IN</b></h1>
