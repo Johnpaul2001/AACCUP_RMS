@@ -28,6 +28,14 @@
                             Archive
                         </a>
                     <?php endif; ?>
+                    <a class="nav-link
+                            <?php if ($_GET['m'] == 'about'): ?>
+                                active
+                            <?php endif; ?>
+                            " href="index.php?m=about">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-circle-info"></i></div>
+                            About
+                        </a>
                 <div class="sb-sidenav-menu-heading">Accreditation</div>
                     <a class="nav-link level-tab
                         <?php if ($_GET['m'] == 'PSV'): ?>

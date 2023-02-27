@@ -2,7 +2,7 @@
 
         <div class="d-flex flex-row ">
             <div>
-                <img src="./img/logcover.png" width="750px" height="700px" alt="">
+                <img src="./img/cover.png" width="750px" height="655px" alt="">
             </div>
             <div>
                 <?php

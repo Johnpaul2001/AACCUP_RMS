@@ -182,6 +182,10 @@ if ($_GET['m'] == 'area_folders') {
     }
     echo json_encode($folder_json);
 
+#about
+} elseif ($_GET['m'] == 'about') {
+    require_once 'views/ui_about.php';
+
 # Archive
 } elseif ($_GET['m'] == 'archive') {    
     $_POST['table'] = array(

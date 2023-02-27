@@ -4,39 +4,14 @@
     require_once('nav.php');
 ?>
  
-<main class="fade-in-down" id="main-section">
-    <header class="masthead">
-            <div class="logo"><img src="./img/bisubal.png" width="300px" alt=""></div>
-            <div class="container position-relative topp">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-5 col-lg-4 col-xl-7">
-                        <div class="site-heading">
-                            <img src="./img/logo.png" width="700px" alt="">
-                        </div>
-                    </div>
+<main class="fade-in-down">
+        <section class="px-2">
+                <div class="section-title">
+                    <h2> About </h2>
+                    <p>These page contains the information of the Accrediting Agency Chartered Colleges and Universities in the Philippines as well as the systems and the researchers.</p>
+                    <hr>
                 </div>
-            </div>
-        </header>
-        <div class="foot">
-            <div class="d-flex flex-row justify-content-evenly py-4">
-                <a class="icons" href="#param">
-                    <div class="nav-link-icon d-flex flex-row justify-content-center"><i class=" fa-sharp fa-solid fa-folder-open bigg"></i></div>
-                    Areas and their Parameters
-                </a>
-                <a class="icons" href="#per">
-                    <div class="nav-link-icon d-flex flex-row justify-content-center"><i class="fa-sharp fa-solid fa-user-tie bigg"></i></div>
-                    List of Task-force
-                </a>
-                <a class="icons" href="#sys">
-                    <div class="nav-link-icon d-flex flex-row justify-content-center"><i class="fa-solid fa-gears bigg"></i>                                    </div>
-                    About the System 
-                </a>
-                <a class="icons" href="#res">
-                    <div class="nav-link-icon d-flex flex-row justify-content-center"><i class="fa-sharp fa-solid fa-users bigg"></i></i></div>
-                    About the Researchers
-                </a>
-            </div>
-        </div>
+        </section>
         <div class="px-5 py-5 bg-primary">
             <div id="carouselExampleControl1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
