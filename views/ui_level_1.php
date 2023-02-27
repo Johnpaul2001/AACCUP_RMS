@@ -2,7 +2,6 @@
     require_once('header.php');
     require_once('head.php');
     require_once('nav.php');
-    $_POST['tree_list'] = array();
 ?> 
 
     <main class="fade-in-down">
@@ -19,10 +18,7 @@
                 <?php require_once 'views/tpl_areas_tab.php' ?>
             </div>
         </div>
-    </main>  
-
-    <script>
-        var tree_list = <?php echo json_encode($_POST['tree_list']); ?>;
-    </script>
-
+    </main> 
+    
+<?php require_once('tpl_level_params.php'); ?>
 <?php require_once('footer.php'); ?>

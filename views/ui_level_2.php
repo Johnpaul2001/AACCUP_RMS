@@ -19,9 +19,6 @@
             </div>
         </div>
     </main>  
-
-    <script>
-        var tree_list = <?php echo json_encode($_POST['tree_list']); ?>;
-    </script>
-
+    
+<?php require_once('tpl_level_params.php'); ?>
 <?php require_once('footer.php'); ?>

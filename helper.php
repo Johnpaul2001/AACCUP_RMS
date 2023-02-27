@@ -122,7 +122,7 @@ function createDir($dir)
     if ($dir != '' && !is_dir($dir)) {
         $ret = mkdir($dir);
         if (!$ret) {
-            //print "<pre>$dir\n";
+            print "<pre>$dir\n";
         }
     }
 }
@@ -223,7 +223,7 @@ function getIndicatorJSON($data, $param_code)
         $code = $param_code.'_'.$indicator;
         $json = array();
         if (is_array($indicator_data)) {  
-            if (isset($_POST['area_indicators'][$code]['Indicator_Desc'])) {
+            if (isset($_POST['area_indicators'][$code])) {
                 $json['text'] = $indicator.' '.$_POST['area_indicators'][$code]['Indicator_Desc'];
             } else {
                 $json['text'] = $indicator;
@@ -235,7 +235,12 @@ function getIndicatorJSON($data, $param_code)
             }          
         } else {
             $fname = basename($indicator_data);
-            $json['text'] = "<a href='{$indicator_data}'>{$fname}</a>";
+            $json['text'] = '
+                    <a href="'.$indicator_data.'">'.$fname.'</a>
+                    <span class="float-right">
+                        <button type="submit" class="btn btn-danger" name="delete" value="'.$indicator_data.'" >DELETE</button>
+                    </span>
+            ';
             $json['icon'] = $_TREE_ICONS['FILE']; 
         }
         $indicator_json[] = $json;

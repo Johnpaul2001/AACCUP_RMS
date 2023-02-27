@@ -34,3 +34,6 @@
         <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
         <script src="js/demo/datatables-demo.js"></script>
+
+        <script src="js/bstreeview.js"></script>
+        <script src="js/arms.js"></script>

@@ -8,14 +8,6 @@
                     </a>
                     <div class="sb-sidenav-menu-heading">MANAGE</div>
                     <a class="nav-link
-                        <?php if ($_GET['m'] == 'programs'): ?>
-                            active
-                        <?php endif; ?>
-                        " href="admin.php?m=programs">
-                        <div class="sb-nav-link-icon"><i class="fa-solid fa-school"></i></div>
-                        Programs
-                    </a>
-                    <a class="nav-link
                         <?php if ($_GET['m'] == 'areas'): ?>
                             active
                         <?php endif; ?>
@@ -63,6 +55,14 @@
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder-open"></i></div>
                         Indicators
                     </a>
+                    <a class="nav-link
+                        <?php if ($_GET['m'] == 'programs'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="admin.php?m=programs">
+                        <div class="sb-nav-link-icon"><i class="fa-solid fa-school"></i></div>
+                        Programs
+                    </a>
 
                     <a class="nav-link
                         <?php if ($_GET['m'] == 'acad_year'): ?>
@@ -70,7 +70,7 @@
                         <?php endif; ?>
                         " href="admin.php?m=acad_year">
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-calendar"></i></div>
-                        Academic Year
+                        Default Folders
                     </a>
                 </div>
         </div>

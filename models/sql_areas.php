@@ -65,7 +65,7 @@ class SQL_Areas extends DB_Connect {
         $sql = "
             SELECT *
             FROM areas
-            ORDER BY Area_Code, Area_Name
+            ORDER BY Area_Key
         ";
         $data = $this->getDataFromTable($sql);
 
@@ -78,6 +78,9 @@ class SQL_Areas extends DB_Connect {
         $columns = $this->tbl_columns;
         $data = array();
         foreach ($input as $values) {
+            if ($values['Area_Code'] == '') continue;
+            $key = $this->getAreaKey($values['Area_Code']);
+            if ($key > 0) continue;
             $row = array();
             foreach ($columns as $col) {
                 $row[] = isset($values[$col]) ? $values[$col] : '';

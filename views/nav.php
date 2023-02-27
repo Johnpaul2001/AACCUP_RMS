@@ -10,6 +10,14 @@
                         <div class="sb-nav-link-icon"><i class="fas fa-house"></i></div>
                         Home
                     </a>
+                    <a class="nav-link 
+                        <?php if ($_GET['m'] == 'about'): ?>
+                            active
+                        <?php endif; ?>
+                        " href="index.php?m=about" >
+                        <div class="sb-nav-link-icon"><i class="fa-solid fa-circle-info"></i></div>
+                        About
+                    </a>
                     <?php if ($_SESSION['arms']['logged'] != ADMIN_USERNAME): ?>
                         <a class="nav-link
                             <?php if ($_GET['m'] == 'archive'): ?>
@@ -21,7 +29,7 @@
                         </a>
                     <?php endif; ?>
                 <div class="sb-sidenav-menu-heading">Accreditation</div>
-                    <a class="nav-link
+                    <a class="nav-link level-tab
                         <?php if ($_GET['m'] == 'PSV'): ?>
                             active
                         <?php endif; ?>
@@ -29,7 +37,7 @@
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         PSV
                     </a>
-                    <a class="nav-link
+                    <a class="nav-link level-tab
                         <?php if ($_GET['m'] == 'LI'): ?>
                             active
                         <?php endif; ?>
@@ -37,7 +45,7 @@
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level I
                     </a>
-                    <a class="nav-link
+                    <a class="nav-link level-tab
                         <?php if ($_GET['m'] == 'LII'): ?>
                             active
                         <?php endif; ?>
@@ -45,7 +53,7 @@
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level II
                     </a>
-                    <a class="nav-link
+                    <a class="nav-link level-tab
                         <?php if ($_GET['m'] == 'LIII'): ?>
                             active
                         <?php endif; ?>
@@ -53,7 +61,7 @@
                         <div class="sb-nav-link-icon"><i class="fa-solid fa-folder"></i></div>
                         Level III
                     </a>
-                    <a class="nav-link
+                    <a class="nav-link level-tab
                         <?php if ($_GET['m'] == 'LIV'): ?>
                             active
                         <?php endif; ?>

@@ -49,7 +49,7 @@ class SQL_Parameters extends DB_Connect {
             FROM parameters as t1
             LEFT JOIN areas as t2 
                 ON t1.Area_Key = t2.Area_Key
-            ORDER BY Area_Code, Area_Name, Parameter_Code
+            ORDER BY t1.Area_Key, Area_Name, Parameter_Code
         ";
         $data = $this->getDataFromTable($sql);
 
@@ -62,7 +62,10 @@ class SQL_Parameters extends DB_Connect {
         $columns = $this->db_tbl_fields;
         $data = array();
         foreach ($input as $values) {
+            if ($values['Parameter_Code'] == '') continue;
             $values['Area_Key'] = $this->area_sql->getAreaKey($values['Area_Code']);
+            $key = $this->getParameterKey($values['Area_Key'], $values['Parameter_Code']);
+            if ($key > 0) continue;
             $row = array();
             foreach ($columns as $col) {
                 $row[] = isset($values[$col]) ? $values[$col] : '';
@@ -84,6 +87,7 @@ class SQL_Parameters extends DB_Connect {
                 ON t1.Area_Key = t2.Area_Key
             WHERE Area_Code = '{$area_code}'
                 AND Parameter_Code is not NULL
+            ORDER BY Parameter_Key
         ";
         $data = $this->getDataFromTable($sql);
         $list = array();
@@ -93,7 +97,6 @@ class SQL_Parameters extends DB_Connect {
 
         return $list;
     }
-
 
 }
 

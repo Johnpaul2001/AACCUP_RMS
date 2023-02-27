@@ -18,7 +18,7 @@
                 <button type="submit" class="btn btn-primary d-flex flex-row" name="save" value="areas"><i class="fa-sharp fa-solid fa-upload px-2 py-1"></i>Upload</button>
             </form>
         </div>        
-        <?php require_once 'views/tpl_table.php' ?>
+        <?php require 'views/tpl_table.php' ?>
         <hr>
     </main>
 

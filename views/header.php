@@ -21,4 +21,5 @@
         <!-- Custom styles for this page -->
         <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
         <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="js/aaccup_folders.js"></script>
 </head>

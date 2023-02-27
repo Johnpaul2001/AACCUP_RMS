@@ -19,17 +19,19 @@
                     </tfoot>
                     <?php endif; ?>
                     <tbody>
-                        <?php foreach ($_POST['table']['table_data'] as $row): ?>
-                            <tr>
-                                <?php foreach ($_POST['table']['table_headers'] as $col): ?>
-                                    <td>
-                                        <?php if (isset($row[$col])): ?>
-                                            <?php echo $row[$col]; ?>
-                                        <?php endif; ?>
-                                    </td>
-                                <?php endforeach; ?>
-                            </tr>
-                        <?php endforeach; ?>
+                        <?php if (is_array($_POST['table']['table_data'])): ?>
+                            <?php foreach ($_POST['table']['table_data'] as $row): ?>
+                                <tr>
+                                    <?php foreach ($_POST['table']['table_headers'] as $col): ?>
+                                        <td>
+                                            <?php if (isset($row[$col])): ?>
+                                                <?php echo $row[$col]; ?>
+                                            <?php endif; ?>
+                                        </td>
+                                    <?php endforeach; ?>
+                                </tr>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
                     </tbody>
                 </table>
             </div>

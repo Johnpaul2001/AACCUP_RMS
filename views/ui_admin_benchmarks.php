@@ -19,7 +19,7 @@
             </div>
         </section>
         <div class="bg-light d-flex flex-column justify-content-between" style="width: 100% !important;">
-            <?php require_once 'views/tpl_table.php' ?>
+            <?php require 'views/tpl_table.php' ?>
         </div>
         <hr>
     </main>

@@ -18,9 +18,12 @@ if (is_dir($dir)) {
 <?php $accordion_id = $area['Area_Code']."_ay_accordion" ?>
 
 <div id="<?php echo $accordion_id ?>">
+    <form action="index.php?m=delete&level_code=<?php echo $_POST['level_code'] ?>&area_code=<?php echo $area['Area_Code'] ?>"
+        method="POST">
+
     <?php foreach ($academic_years as $acad_yr): ?>
         <?php 
-            $id = $area['Area_Code'].'_'.$program_code.'_'.$param_code.'_'.$benchmark_code.'_'.$acad_yr;
+            $id = $area['Area_Code'].'_'.$_POST['program_code'].'_'.$_POST['param_code'].'_'.$benchmark_code.'_'.$acad_yr;
             $_POST['tree_list'][] = array(
                 'id' => $id,
                 'path' => $dir.'/'.$acad_yr,
@@ -47,8 +50,13 @@ if (is_dir($dir)) {
 
                     <div class="row">
                         <div class="col-md-12">
-                            <div id="spinner_<?php echo $id ?>" class="spinner-border text-primary text-center" role="status">
-                                <span class="sr-only">Loading...</span>
+                            <div class="alert alert-success" id="alert_msg_<?php echo $id ?>"> 
+                            </div>
+                            <div class="alert alert-warning" id="spinner_<?php echo $id ?>">                              
+                                <div id="spinner_<?php echo $id ?>" class="spinner-border text-primary text-center" role="status">
+                                    <span class="sr-only">Loading...</span>
+                                </div>
+                                <strong>Please wait!</strong> Loading indicator folders and files.  
                             </div>
                             <div id="tree_<?php echo $id ?>">
                             </div>
@@ -59,4 +67,5 @@ if (is_dir($dir)) {
             </div>
         </div>
     <?php endforeach; ?>
+    </form>
 </div>

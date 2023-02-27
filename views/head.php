@@ -16,13 +16,10 @@
                     </li>
                     <li><hr class="dropdown-divider" /></li>
                     <?php endif; ?>
-                    <li>
-                        <a class="dropdown-item" href="index.php"> <i class="fas fa-user fa-fw"></i>Profile</a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
                     <li><a class="dropdown-item" href="index.php?m=logout"><i class="fa-solid fa-right-from-bracket px-2"></i>Logout</a></li>
                 </ul>
             </li>
         </ul>
+        
     </nav>
     <div id="layoutSidenav">

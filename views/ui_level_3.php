@@ -18,6 +18,5 @@
                 <p>Oops! Sorry, this level of accreditation is not allowed to use. There is no programs in the campus that are passed as Level III Accreditation.</p>
             </div>
         </div>    
-    </main>   
-
+    </main>  
 <?php require_once('footer.php'); ?>

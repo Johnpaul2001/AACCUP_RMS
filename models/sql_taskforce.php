@@ -37,7 +37,7 @@ class SQL_TaskForce extends DB_Connect {
             FROM task_force as t1
             LEFT JOIN areas as t2 
                 ON t1.Area_Key = t2.Area_Key
-            ORDER BY Area_Code, Area_Name, Last_Name, First_Name
+            ORDER BY t1.Area_Key, Area_Name, Last_Name, First_Name
         ";
         $data = $this->getDataFromTable($sql);
 
